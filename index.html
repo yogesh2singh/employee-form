@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body id="container">
+        <div class="fluid-layout">
+            <h1 class="formHeading"> Title </h1>
+            <form name="employeeForm">
+                <div>
+                    <div class="form-group">
+                        <div>First Name</div>
+                        <input type="text" name="firstName" id="firstName" />
+                    </div>
+                    <div class="form-group">
+                        <div>Last Name</div>
+                        <input type="text" name="lastName" id="lastName" />
+                    </div>
+                </div>
+                <div class="clearFloat"></div>
+                <div>
+                    <div class="form-group">
+                        <div>Email</div>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <div class="form-group">
+                        <div>Password</div>
+                        <input type="password" name="password" id="password" />
+                    </div>
+                </div>
+                <div class="clearFloat"></div>
+                <button type="button" id="submitButton" onClick="submitAndValidateForm();"> Submit > </button>
+            </form>
+        </div>
+
+    </body>
+</html>
