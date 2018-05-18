@@ -1,0 +1,39 @@
+#container {
+    width: 100%;
+}
+
+.formHeading {
+    background-color:#dedede;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0; 
+}
+
+.fluid-layout {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-group {
+    float: left;
+    margin-right: 30px;
+    padding: 10px;
+    width: 40%;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+#submitButton {
+    width: 100%;
+    text-align: center;
+    background-color: #dedede;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold; 
+}
+
+.clearFloat {
+    clear: both;
+}
